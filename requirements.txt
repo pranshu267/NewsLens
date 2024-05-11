@@ -1,0 +1,8 @@
+transformers
+datasets
+evaluate
+rouge_score
+torch
+pandas
+matplotlib
+transformers[torch]
