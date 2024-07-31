@@ -34,8 +34,3 @@ def get_qa_chain():
                                         chain_type_kwargs={"prompt": PROMPT})
 
     return chain
-
-chain = get_qa_chain()
-response = chain("Latest news on basketball?")
-print(response['result'])
-
